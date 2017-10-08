@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Техномарт - онлайн магазин строительных материалов</title>
+	<meta name="description" content="Онлайн магазин строительных материалов" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="col-md-12">	
+				<article class="order-box">
+					<a href="index.html" class="logo">Техномарт</a>
+					<form action="" method="POST">
+						<input type="search" name="" id="" placeholder="Поиск:">
+					</form>
+					<button class="auth_buttons hidden-md hidden-lg hidden-sm"><i class="fa fa-bars"></i></button>
+					<span class="order-information">
+						<a href="" class="bookmarks"><i class="fa fa-bookmark-o" aria-hidden="true"></i><b>Закладки:</b> 0</a>
+						<a href="" class="basket"><i class="fa fa-shopping-cart" aria-hidden="true"></i><b>Корзина:</b> 0</a>
+						<a href="" class="order-matter">Оформить <b>заказ</b></a>
+					</span>
+				</article>
+			</div>
+			<div class="col-md-12">
+				<article class="profile-box">
+					<div class="col-md-4">
+						<span class="shop-description">
+							<p>
+								Интернет-магазин<br>
+								строительных материалов<br>
+								и инструментов для ремонта
+							</p> 
+						</span>
+					</div>
+					<div class="col-md-4">
+						<span class="contacts">
+							<p>
+								<b class="compain-phone"><i class="fa fa-phone" aria-hidden="true"></i>+7 (812) 555-05-55</b>
+								<b class="compain-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</b>
+							</p>
+						</span>
+					</div>
+					<div class="col-md-4">
+						<span class="profile-block">
+							<a href="" class="login-form">
+								<i class="fa fa-sign-in" aria-hidden="true"></i>	
+								Войти
+							</a>
+							<a href="" class="signin-form">Регистрация</a>
+						</span>
+					</div>
+				</article>
+			</div>
+			<div class="col-md-12">
+				<article class="navigate-menu">
+					<ul class="nav-item">
+						<li><a href="index.html">Главная</a></li>
+						<li><a href="#">Компания</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Спецпредложения</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</article>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="col-md-12">
+				<div class="breadcrumbs">
+					<nav class="breadcrumbs-navigate">
+						<ul>
+							<li><i class="fa fa-home" aria-hidden="true"></i></li>
+							<li><a href="">Каталог</a></li>
+							<li><a href="">Инструмент</a></li>
+							<li><a href="">Перфораторы</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="item-sort">
+					<span class="item-sort-title"><h4>Перфораторы</h4></span>
+					<span class="filter-block">Фильтр:</span>
+					<span class="sort-block">
+						<b>Сортировка:</b>
+						<span class="sort-category">
+							<a href="#" class="active-item-sort">По цене</a>
+							<a href="#">По типу</a>
+							<a href="#">По функционалу</a>
+						</span>
+						<span class="item-denomination">
+							<a href="#" class="sort-up"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a>
+							<a href="#" class="sort-down"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></a>
+						</span>
+					</span>
+				</div>
+			</div>	
+			<div class="col-md-4">
+				<aside class="item-search-mark">
+					<form action="#">
+						<div class="item-price-toggle">
+							<h4>Цена:</h4>
+							<span class="range-block">
+								<input type="range" min="0" max="30000" step="1000" value="0" name="" id="range" oninput="rangeChange()"><br>
+							</span>
+							<span class="range-first-value">0</span>
+							<b>&mdash;</b>
+							<span id="rangeValue">0</span>
+						</div>
+						<hr>
+						<div class="item-search-brand">
+							<h4>Производители:</h4>
+							<input type="checkbox" name="brand-bosch" id="brand-bosch"  checked="checked">
+							<span class="checkbox-custom"></span>
+							<label for="brand-bosch">BOSCH</label><br>
+							<input type="checkbox" name="brand-interscop" id="brand-interscop">
+							<span class="checkbox-custom"></span>
+							<label for="brand-interscop">Интерскоп</label><br>
+							<input type="checkbox" name="brand-makita" id="brand-makita" checked="checked">
+							<span class="checkbox-custom"></span>
+							<label for="brand-makita">Makita</label><br>
+							<input type="checkbox" name="brand-dewalt" id="brand-dewalt">
+							<span class="checkbox-custom"></span>
+							<label for="brand-dewalt">dewalt</label><br>
+							<input type="checkbox" name="brand-hitachi" id="brand-hitachi">
+							<span class="checkbox-custom"></span>
+							<label for="brand-hitachi">Hitachi</label>
+						</div>
+						<hr>
+						<div class="item-power">
+							<h4>Питание</h4>
+							<input type="radio" name="power" id="power">
+							<b class="radio-custom"></b>
+							<label for="power">Аккумуляторные</label><br>
+							<input type="radio" name="power" id="power1">
+							<b class="radio-custom"></b>
+							<label for="power1">Сетевые</label>
+						</div>
+						<input type="submit" value="Показать">
+					</form>
+				</aside>
+			</div>
+			<div class="col-md-8">
+				<section class="item-catalog clearfix">
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="" class="item-price">25500 Р.</a>	
+					</div>
+				</section>
+				<div class="col-md-12">
+				<div class="page-switch-list clearfix">
+					<a href="#" class="page-switch-active">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#" class="page-switch-next">Следующая</a>
+				</div>
+			</div>
+			</div>
+			<div class="tools-description">
+				<h4>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h4>
+				<p>
+					Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+					Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В<br> ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+				</p>
+			</div>
+		</div>
+	</div>
+</main>
+<footer>
+	<div class="container">
+		<div class="col-md-12">
+			<div class="footer-nav">
+				<div class="main-navigate">
+					<a href="index.html" class="logo footer-logo">Техномарт</a>
+					<nav class="menu-nav">
+						<ul class="menu-nav-item">
+							<li><a href="">Компания</a></li>
+							<li><a href="">Новости</a></li>
+							<li><a href="">Каталог</a></li>
+							<li><a href="">Доставка</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="second-navigate clearfix">
+					<address>
+						г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> 
+						+7 (812) 555-05-55
+					</address>	
+					<nav class="special-menu">
+						<ul class="special-menu-item">
+							<li><a href="">Материалы</a></li>
+							<li><a href="">Техника</a></li>
+							<li><a href="">Инструмент</a></li>
+							<li><a href="">Спецпредложения</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<footer class="footer-social">
+	<div class="container">
+		<div class="col-md-4">
+			<div class="protect-block">
+				<p>
+					© 2010–2017 Компания «Техномарт»<br>Все права защищены
+				</p>	
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="social-block">
+				<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+				<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="dev-block">
+				<span>Обратная связь: 
+					<a href="">mail@htmlacademy.ru</a>
+				</span>
+				<span>Разработано — 
+					<a href="">htmlacademy.ru</a>
+				</span>
+			</div>	
+		</div>
+	</div>
+</footer>
+<!-- Меню обратной связи -->
+<div class="hidden">
+	<form id="callback" class="basket-add">
+		<span class="add-basket-img">&#10004;</span>
+		<h3>Товар добавлен в корзину!</h3>
+		<span class="basket-button">
+			<a href="" class="order-item">Оформить заказ</a>
+			<a href="" class="continue-shoping">Продолжить покупки</a>
+		</span>
+	</form>
+</div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>	
+<script src="libs/countdown/jquery.plugin.js"></script>
+<script src="libs/countdown/jquery.countdown.min.js"></script>
+<script src="libs/countdown/jquery.countdown-ru.js"></script>
+<script src="libs/landing-nav/navigation.js"></script>
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

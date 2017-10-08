@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Техномарт - онлайн магазин строительных материалов</title>
+	<meta name="description" content="Онлайн магазин строительных материалов" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="libs/countdown/jquery.countdown.css" />
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="col-md-12">	
+				<article class="order-box">
+					<a href="index.html" class="logo">Техномарт</a>
+					<form action="" method="POST">
+						<input type="search" name="" id="" placeholder="Поиск:">
+					</form>
+					<button class="auth_buttons hidden-md hidden-lg hidden-sm"><i class="fa fa-bars"></i></button>
+					<span class="order-information">
+						<a href="" class="bookmarks"><i class="fa fa-bookmark-o" aria-hidden="true"></i><b>Закладки:</b> 0</a>
+						<a href="" class="basket"><i class="fa fa-shopping-cart" aria-hidden="true"></i><b>Корзина:</b> 0</a>
+						<a href="" class="order-matter">Оформить <b>заказ</b></a>
+					</span>
+				</article>
+			</div>
+			<div class="col-md-12">
+				<article class="profile-box">
+					<div class="col-md-4">
+						<span class="shop-description">
+							<p>
+								Интернет-магазин<br>
+								строительных материалов<br>
+								и инструментов для ремонта
+							</p> 
+						</span>
+					</div>
+					<div class="col-md-4">
+						<span class="contacts">
+							<p>
+								<b class="compain-phone"><i class="fa fa-phone" aria-hidden="true"></i>+7 (812) 555-05-55</b>
+								<b class="compain-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</b>
+							</p>
+						</span>
+					</div>
+					<div class="col-md-4">
+						<span class="profile-block">
+							<a href="" class="login-form">
+								<i class="fa fa-sign-in" aria-hidden="true"></i>	
+								Войти
+							</a>
+							<a href="" class="signin-form">Регистрация</a>
+						</span>
+					</div>
+				</article>
+			</div>
+			<div class="col-md-12">
+				<article class="navigate-menu">
+					<ul class="nav-item">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Компания</a></li>
+						<li><a href="item.html">Каталог</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Спецпредложения</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</article>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="container">
+			<div class="col-md-12">
+				<section class="advantages-box clearfix">
+					<div class="advantages-description materials">
+						<p>Материалы</p>
+						<a href="#">На любой вкус</a>
+						<picture>
+							<img src="img/list-pic1.png" alt="Строительные материалы на любой вкус">
+						</picture>
+						<span class="label-new">new</span>		
+					</div>
+					<div class="advantages-description tool">	
+						<p>Инструменты</p>
+						<a href="#">На все случаи жизни</a>
+						<picture>
+							<img src="img/list-pic2.png" alt="Строительные материалы на любой вкус">
+						</picture>
+						<span class="label-new hidden">new</span>	
+					</div>
+					<div class="advantages-description technique">	
+						<p>Техника</p>
+						<a href="#">Для стройки</a>
+						<picture>
+							<img src="img/list-pic3.png" alt="Строительные материалы на любой вкус">
+						</picture>
+						<span class="label-new hidden">new</span>
+					</div>
+					<input type="radio" name="toggle" id="prev-btn" cheked>
+					<input type="radio" name="toggle" id="next-btn">
+					<div class="slider">
+						<div class="slider-block">
+							<div class="slider-item" id="slider1">
+								<div class="slider-title perforator">
+									<h4>Перфораторы</h4>
+									<p>Настоящие мужские игрушки</p>
+								</div>
+							</div>
+							<div class="slider-item" id="slider2">
+								<div class="slider-title drill">
+									<h4>Дрели</h4>
+									<p>Соседям на радость!</p>
+								</div>
+							</div>
+							<div class="slider-controls">
+								<label class="prev-btn" for="prev-btn"></label>
+								<label class="next-btn" for="next-btn"></label>
+							</div>
+							<a href="item.html" class="catalog-directory">Открыть каталог</a>
+						</div>
+					</div>
+					<div class="right-box">
+						<div class="advantages-description discount">
+							<p>Скидки</p>
+							<a href="#">На 350 товаров</a>
+							<picture>
+								<img src="img/list-pic4.png" alt="Строительные материалы на любой вкус">
+							</picture>
+							<span class="label-new hidden">new</span>
+						</div>
+						<div class="advantages-description delivery">
+							<p>Доставка</p>
+							<a href="#">Бесплатно</a>
+							<picture>
+								<img src="img/list-pic5.png" alt="Строительные материалы на любой вкус">
+							</picture>
+							<span class="label-new hidden">new</span>
+						</div>
+					</div>
+				</section>
+				<section class="popular-item-list">
+					<div class="item-title">
+						<h4>Популярные товары:</h4>
+						<a href="item.html">Все популярные товары</a>
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="item.html" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="item.html" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="item.html" class="item-price">25500 Р.</a>	
+					</div>
+					<div class="item-list">
+						<img src="img/list-item1.png" alt="">
+						<div class="item-navigate">
+							<a href="" class="buy-item">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								Купить
+							</a>
+							<a href="#callback" class="item-bookmarks fancybox">В закладки</a>
+						</div>
+						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+						<b class="last-item-price">30500 Р.</b>
+						<a href="item.html" class="item-price">25500 Р.</a>	
+					</div>
+				</section>
+				<section class="brand-list">
+					<div class="item-title brand">
+						<h4>Популярные прозводители:</h4>
+						<a href="item.html">Все прозводители</a>
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand1.png" alt="">
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand2.png" alt="">
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand3.png" alt="">
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand4.png" alt="">
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand5.png" alt="">
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand6.png" alt="">
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand7.png" alt="">
+					</div>
+					<div class="brand-item">
+						<img src="img/list-brand8.png" alt="">
+					</div>
+				</section>
+				<section class="service-block">
+					<div class="service-description">
+						<h2>Сервисы</h2>
+						<p>
+							Хороший интернет-магазин отличается от плохого не только ценами!
+							Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
+						</p>
+					</div>
+					<div class="tab-box">
+						<div class="tab-nav">
+							<label><input type="radio" name="test" value="12" id="toggle-button1"><span>Доставка</span></label>
+							<label><input type="radio" name="test" value="12" id="toggle-button2"><span class="spoiler-title">Гарантия</span></label>
+							<label><input type="radio" name="test" value="12" id="toggle-button3"><span>Кредит</span></label>
+						</div>
+						<div class="tab-description">
+							<div class="tab-item1" id="content1">
+								<span class="tab-item-description">
+									<h3>Доставка</h3>
+									<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+										Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж.</p>
+									</span>
+									<span class="tab-item-pic">
+										<img src="img/list-servise-delivery.png" alt="">
+									</span>
+								</div>	
+								<div class="tab-item2" id="content2">
+									<span class="tab-item-description">
+										<h3>Гарантия</h3>
+										<p>Если купленный у нас товар поломается или заискрит, 
+											а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. 
+										Дом уж восстановите как-нибудь сами.</p>
+									</span>
+									<span class="tab-item-pic">
+										<img src="img/list-servise-quality.png" alt="">
+									</span>
+								</div>	
+								<div class="tab-item3" id="content3">
+									<span class="tab-item-description">
+										<h3>Кредит</h3>
+										<p>Залезть в долговую яму стало проще! 
+										Кредитные консультанты придут вам на помощь.</p>
+										<a href="#">Отправить заявку</a>
+									</span>
+									<span class="tab-item-pic">
+										<img src="img/list-servise-credit.png" alt="">
+									</span>
+								</div>	
+							</div>	
+						</div>
+					</section>
+					<section class="feedback">
+						<div class="company-information">
+							<h3>КОМПАНИЯ «Техномарт»</h3>
+							<p>
+								Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.
+							</p>
+							<p>
+								Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+								Техномарт работает со многими транспортными компаниями: 
+							</p>
+							<ul class="logistics-list">
+								<li>Деловые линии</li>
+								<li>Автотрейдинг</li>
+								<li>ЖелДорЭкспедиция</li>
+							</ul>
+							<a href="#">Подробнее о компании</a>
+						</div>
+						<div class="contacts-block">
+							<h3>Контакты</h3>
+							<p>
+								Вы можете забрать товар сами,<br> 
+								заехав в наш офис:
+							</p>
+							<iframe src="https://yandex.ru/map-widget/v1/-/CBU9eSbV9A" width="300" height="158" frameborder="0"></iframe>
+							<a href="#callback" class="button fancybox">Заблудились? НапиШИТЕ НАМ!</a>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="container">
+				<div class="col-md-12">
+					<div class="footer-nav">
+						<div class="main-navigate">
+							<a href="index.html" class="logo footer-logo">Техномарт</a>
+							<nav class="menu-nav">
+								<ul class="menu-nav-item">
+									<li><a href="">Компания</a></li>
+									<li><a href="">Новости</a></li>
+									<li><a href="">Каталог</a></li>
+									<li><a href="">Доставка</a></li>
+									<li><a href="">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="second-navigate clearfix">
+							<address>
+								г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> 
+								+7 (812) 555-05-55
+							</address>	
+							<nav class="special-menu">
+								<ul class="special-menu-item">
+									<li><a href="">Материалы</a></li>
+									<li><a href="">Техника</a></li>
+									<li><a href="">Инструмент</a></li>
+									<li><a href="">Спецпредложения</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<footer class="footer-social">
+			<div class="container">
+				<div class="col-md-4">
+					<div class="protect-block">
+						<p>
+							© 2010–2017 Компания «Техномарт»<br>Все права защищены
+						</p>	
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="social-block">
+						<a href="#"><i class="fa fa-vk" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="dev-block">
+						<span>Обратная связь: 
+							<a href="">mail@htmlacademy.ru</a>
+						</span>
+						<span>Разработано — 
+							<a href="">htmlacademy.ru</a>
+						</span>
+					</div>	
+				</div>
+			</div>
+		</footer>
+		<footer class="footer-social"></footer>
+		<!-- Меню обратной связи -->
+		<div class="hidden">
+			<form id="callback" class="pop_form">
+				<h3>Есть вопросы? Напишите что вас интересует и мы свяжемся с вами!</h3>
+				<input type="text" name="name" placeholder="Ваше имя..." required /><br>
+				<input type="tel" name="phone" placeholder="Ваш телефон..." required /><br>
+				<button class="button" type="submit">Перезвони мне!</button>
+			</form>
+		</div>
+		<div class="hidden">
+			<form id="callback" class="basket-add">
+				<span class="add-basket-img"></span>
+				<h3>Товар добавлен в корзину!</h3>
+				<a href="" class="order-item">Оформить заказ</a>
+				<a href="" class="continue-shoping">Продолжить покупки</a>
+			</form>
+		</div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
+<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
+<script src="libs/owlcarousel/owl.carousel.min.js"></script>	
+<script src="libs/countdown/jquery.plugin.js"></script>
+<script src="libs/countdown/jquery.countdown.min.js"></script>
+<script src="libs/countdown/jquery.countdown-ru.js"></script>
+<script src="libs/landing-nav/navigation.js"></script>
+<script src="js/common.js"></script>
+<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

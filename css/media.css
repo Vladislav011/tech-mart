@@ -1,0 +1,824 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.order-box {
+		margin-left: 0px;
+	}
+	.logo {
+		width: 20%;
+		height: 42px;
+		box-shadow: none;
+	}
+	input[type=search] {
+		width: 20%;
+	}
+	.order-information {
+		width: 60%;
+	}
+	.bookmarks,
+	.basket,
+	.order-matter {
+		width: 31.47%;
+	}
+	.profile-box {
+		width: 100%;
+		float: left;
+		margin-left: -55px;
+		margin-top: 15px;
+	}
+	.shop-description,
+	.contacts {
+		float: left;
+		width: 45%;
+	}
+	.shop-description p {
+		width: 100%;
+		line-height: 20px;
+	}
+	b.compain-adress  {
+		display: block;
+		width: 270px;
+		margin-left: 0;
+		line-height: 30px;
+		font-size: 12px;
+	}
+	.profile-block {
+		float: right;
+		width: 13%;
+	}
+	.signin-form {
+		width: 121px;
+	}
+	.navigate-menu {
+		width: 96.2%;
+		margin-left: 10px;
+	}
+	.nav-item li  {
+		margin-left: 0px;
+	}
+	.nav-item li a {
+		width: 120px;
+	}
+	/*Slider*/
+	.advantages-box {
+		width: 98.5%;
+		margin-top: 10%;
+		margin-left: auto;
+		padding-left: 0;
+	}
+	.advantages-description {
+		width: 47.9%;
+		margin-left: auto;
+	}
+	.technique  {
+		width: 96.2%;
+	}
+	.slider {
+		width: 96.2%;
+		margin-left: 0;
+		margin-bottom: -10px;
+		margin-top: 130px;
+		-webkit-background-size: 100% 100% !important;
+		-moz-background-size: 100% 100% !important;
+		-o-background-size: 100% 100% !important;
+		background-size: 100% 100% !important;
+	}
+	.right-box {
+		width: 100%;
+		padding-left: 0;
+		margin-top: -400px;
+	}
+	.popular-item-list {
+		margin: 0;
+		padding: 0;
+	}
+	.item-title {
+		width: 100%;
+		margin-bottom: 5%;
+	}
+	.item-title h4 {
+		width: 40%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+	}
+	.item-title a  {
+		width: 40%;
+		float: right;
+		margin-top: 3.2%;
+	}
+	.item-list {
+		float: left;
+		width: 30%;
+		margin-left: 7%;
+	}
+	/*Сервисы*/
+	.service-block {
+		width: 100%;
+		padding-top: 100px;
+	}
+	.tab-item-description {
+		width: 40%;
+	}
+	.tab-item-pic {
+		width: 43%;
+		margin-right: 200px;
+	}
+	.tab-description {
+		width: 70%;
+	}
+	.breadcrumbs {
+		width: 100%;
+		margin: 15% auto;
+		padding-top: 15%;
+	}
+	.breadcrumbs-navigate li {
+		margin-left: 0;
+		padding-left: 30px;
+		background-position: 12px 6px;
+	}
+	.item-sort-title {
+		width: 116%;
+		margin: 20% -20%;
+		margin-bottom: 10%;
+		padding-left: 140px;
+	}
+	.filter-block {
+		float: left;
+		width: 25%;
+		margin: 1.68% -20%;
+	}
+	.sort-block {
+		float: left;
+		width: 80%;
+		margin-top: 10px;
+		margin-left: 16%;
+		padding-left: 10px;
+	}
+	.sort-category {
+		margin-left: 10%;
+	}
+	.sort-category a {
+		margin-left: 2%;
+	}
+	.item-denomination {
+		margin-left: 10%;
+	}
+	/*Footer*/
+	a.footer-logo {
+		width: 25%;
+		margin: 0 auto;
+		margin-bottom: -50%;
+	}
+	.menu-nav {
+		float: right;
+		width: 70%;
+		margin-left: 23%;
+	}
+	.menu-nav ul li  {
+		float: left;
+	}
+	.second-navigate {
+		width: 100%;
+	}
+	address {
+		float: left;
+		width: 40%;
+		margin: 7% 0;
+		margin-bottom: -7%;
+		padding: 0;
+	}
+	.special-menu {
+		float: right;
+		width: 70%;
+		margin: 0;
+		padding: 0;
+	}
+	.protect-block {
+		float: left;
+		width: 90%;
+		margin: 5% auto;
+	}
+	.social-block {
+		width: 100%;
+		margin: 0 -25%;
+	}
+	.dev-block a {
+		font-size: 15px;
+	}
+	.dev-block {
+		display: inline-block;
+		width: 100%;
+		margin: 0 0;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 987px) {
+	.navigate-menu {
+		width: 95%;
+		margin-left: 10px;
+	}
+	.nav-item li  {
+		width: 16.59%;
+		
+		margin-left: 0px;
+	}
+	.nav-item li a {
+		width: 100%;
+		font-size: 14px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*header*/
+	header {
+		width: 100%;
+		height: auto;
+	}
+	.order-box {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.logo {
+		width: 45%;
+		height: 43px;
+		margin: auto;
+		box-shadow: none;
+	}
+	input[type=search] {
+		width: 45%;
+	}
+	.auth_buttons {
+		color: #fff;
+		line-height: 40px;
+	}
+	.order-information {
+		width: 100%;
+		margin: auto;
+	}
+	.bookmarks,
+	.basket,
+	.order-matter {
+		width: 31.47%;
+	}
+	.shop-description p {
+		display: none;
+	}
+	.compain-adress {
+		color: #fff !important;
+		font-weight: 400;
+	}
+	.profile-box {
+		margin-left: 0;
+		margin-top: 50px;
+	}
+	.profile-block {
+		margin-right: -10%;
+		width: 50%;
+	}
+	.navigate-menu {
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+		box-shadow: none;
+
+	}
+	.nav-item li  {
+		width: 100%;
+		margin-left: -30px;
+		clear: both;
+	}
+	.nav-item li a {
+		width: 115%;
+	}
+	/*Slider*/
+	.advantages-box {
+		width: 100%;
+		margin-left: auto;
+		padding-left: 0;
+	}
+	.advantages-description {
+		width: 49.6%;
+		margin-left: auto;
+	}
+	.technique  {
+		width: 100%;
+	}
+	.slider {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: -10px;
+		margin-top: 130px;
+		-webkit-background-size: 100% 100% !important;
+		-moz-background-size: 100% 100% !important;
+		-o-background-size: 100% 100% !important;
+		background-size: 100% 100% !important;
+	}
+	.right-box {
+		width: 100%;
+		padding-left: 0;
+		margin-top: -400px;
+	}
+	/*Items*/
+	.popular-item-list {
+		margin: 0;
+		padding: 0;
+	}
+	.item-title {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	.item-title h4 {
+		width: 40%;
+		float: left;
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+	}
+	.item-title a  {
+		width: 40%;
+		float: right;
+		margin-top: 5%;
+	}
+	.item-list {
+		float: left;
+		width: 40%;
+		margin-left: 7%;
+		margin-top: 5%;
+	}
+	/*Сервисы*/
+	.service-block {
+		width: 100%;
+		padding-top: 100px;
+	}
+	.service-description {
+		width: 100%;
+	}
+	.tab-nav label span {
+		width: 105%;
+	}
+	.tab-nav label  {
+		width: 100%;
+	}
+	.tab-nav  {
+		width: 100%;
+		margin-left: 5%;
+	}
+	.tab-item-description {
+		width: 100%;
+	}
+	.tab-item-pic {
+		width: 43%;
+	}
+	.tab-item-pic img {
+		width: 250%;
+	}
+	.tab-description {
+		wdith: 100%;
+		margin-top: 40px;
+		margin-right: 190px;
+	}
+	/*Каталог товаров*/
+	.breadcrumbs {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.breadcrumbs-navigate {
+		margin-left: -60px;
+	}
+	.breadcrumbs-navigate li {
+		margin-left: 0;
+		padding-left: 10px;
+		background-position: 2px 6px;
+	}
+	.item-sort-title {
+		width: 136%;
+		margin: 0 -30%;
+		padding-left: 60%;
+	}
+	.filter-block {
+		display: none;
+	}
+	.sort-block {
+		width: 135%;
+		margin-top: 10px;
+		margin-left: -29%;
+		padding-left: 10px;
+	}
+	.sort-category {
+		margin-left: 10%;
+	}
+	.item-denomination {
+		margin-left: 10%;
+	}
+	.button {
+		margin-bottom: 120px;
+	}
+	/*Footer*/
+	a.footer-logo {
+		width: 25%;
+		margin: 0 auto;
+		margin-bottom: -50%;
+	}
+	.menu-nav {
+		float: right;
+		width: 90%;
+		margin-left: 0%;
+	}
+	.menu-nav ul li  {
+		float: right;
+	}
+	.second-navigate {
+		width: 100%;
+	}
+	address {
+		float: left;
+		width: 40%;
+		margin: 7% 0;
+		margin-bottom: -7%;
+		padding: 0;
+	}
+	.special-menu {
+		float: right;
+		width: 80%;
+		margin: -5% 0;
+		padding: 0;
+	}
+	.protect-block {
+		float: left;
+		width: 90%;
+		margin: 5% auto;
+	}
+	.social-block {
+		width: 100%;
+		margin: 0 0;
+		padding-top: 5px;
+	}
+	.social-block a {
+		margin-top: 5px;
+	}
+	.dev-block a {
+		font-size: 15px;
+	}
+	.dev-block {
+		display: inline-block;
+		width: 100%;
+		margin: 0 0;
+	}
+	
+}
+@media only screen and (max-width : 604px) {
+	/*Slider*/
+	.advantages-box {
+		width: 100%;
+		margin-left: auto;
+		padding-left: 0;
+	}
+	.advantages-description {
+		width: 100%;
+		margin-left: auto;
+	}
+	.slider {
+		width: 100%;
+		margin-left: 0;
+		-webkit-background-size: 100% 100% !important;
+		-moz-background-size: 100% 100% !important;
+		-o-background-size: 100% 100% !important;
+		background-size: 100% 100% !important;
+	}
+	.right-box {
+		width: 100%;
+		padding-left: 0;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/*header*/
+	header {
+		height: auto;
+
+	}
+	.order-box {
+		margin-left: 0px;
+
+	}
+	.profile-box {
+		width: 100%;
+		background: #fff;
+		margin-top: 44px;
+	}
+	.logo {
+		width: 50%;
+		height: 43px;
+		margin: auto;
+		box-shadow: none;
+	}
+	input[type=search] {
+		width: 40%;
+	}
+	.auth_buttons {
+		color: #fff !important;
+		line-height: 40px;
+	}
+	.order-information {
+		width: 100%;
+		margin: 0;
+	}
+	.bookmarks,
+	.basket,
+	.order-matter {
+		width: 31.47%;
+	}
+	.profile-box {
+		width: 100%;
+		margin-left: 0;
+		padding-left: 15%;
+	}
+	.shop-description p,
+	.compain-adress,
+	.bookmarks b,
+	.basket b,
+	.order-matter b {
+		display: none !important;
+	}
+	.order-matter {
+		width: 29%;
+		margin-top: 1px;
+	}
+	.compain-phone {
+		width: 230%;
+		padding-left: auto;
+		margin-top: 15px;
+		border: 3px solid red;
+	}
+	.contacts i {
+		font-size: 22px;
+		margin-right: 10px;
+	}
+	.profile-block  {
+		width: 100%;
+		margin-right: 25px;
+	}
+	.profile-block a {
+		width: 48%;
+	}
+	.profile-block a i {
+		margin-right: 0;
+	}
+	.navigate-menu {
+		width: 100%;
+		height: auto;
+		margin-left: 0;
+		box-shadow: none;
+	}
+	.nav-item li  {
+		width: 100%;
+		margin-left: -30px;
+		clear: both;
+	}
+	.nav-item li a {
+		width: 115%;
+	}
+	/*Slider*/
+	.advantages-box {
+		width: 100%;
+		margin-left: auto;
+		padding-left: 0;
+	}
+	.advantages-description {
+		width: 100%;
+		margin-left: auto;
+	}
+	.slider {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 0.5%;
+		-webkit-background-size: 100% 100% !important;
+		-moz-background-size: 100% 100% !important;
+		-o-background-size: 100% 100% !important;
+		background-size: 100% 100% !important;
+	}
+	.right-box {
+		width: 100%;
+		padding-left: 0;
+		margin-top: 2%;
+	}
+	.delivery {
+		margin-top: 0.7%;
+	}
+	/*Items*/
+	.popular-item-list {
+		margin: 0;
+		padding: 0;
+	}
+	.item-title {
+		width: 100%;
+		margin-bottom: 20%;
+	}
+	.item-title h4 {
+		width: 100%;
+		padding: 0;
+		line-height: 30px;
+	}
+	.item-title a  {
+		width: 100%;
+	}
+	.brand-list {
+		margin-left: -10%;
+	}
+	.item-list {
+		float: none;
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 5%;
+	}
+	/*Сервисы*/
+	.service-block {
+		width: 100%;
+		padding-top: 100px;
+		margin-left: 0;
+	}
+	.service-description {
+		width: 100%;
+	}
+	.tab-item-description {
+		width: 100%;
+	}
+	.tab-item-pic {
+		display: none;
+	}
+	.tab-description {
+		width: 100%;
+		margin-top: 70px;
+		margin-right: 100px;
+	}
+	.tab-nav {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.tab-nav label span {
+		width: 111%;
+	}
+	/*Каталог товаров*/
+	.breadcrumbs {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.breadcrumbs-navigate {
+		margin-left: -60px;
+	}
+	.breadcrumbs-navigate li {
+		margin-left: 0;
+		padding-left: 10px;
+		background-position: 2px 6px;
+	}
+	.item-sort-title {
+		width: 235%;
+		margin: 0 -115%;
+		padding-left: 60%;
+	}
+	.filter-block {
+		display: none;
+	}
+	.sort-block {
+		width: 235%;
+		margin-top: 10px;
+		margin-left: -110%;
+		padding-left: 10px;
+	}
+	.sort-block b {
+		font-size: 14px;
+	}
+	.sort-category a {
+		margin-left: 1px;
+	}
+	.item-denomination {
+		margin-left: 0px;
+	}
+	/*Feedback*/
+	.feedback {
+		margin-left: 0px;
+	}
+	.company-information {
+		width: 100%;
+	}
+	.contacts-block {
+		width: 100%;
+	}
+	.button {
+		margin-bottom: 30px;
+	}
+	.page-switch-list {
+		margin-left: -20px;
+	}
+	/*Footer*/
+	a.footer-logo {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 0;
+	}
+	.menu-nav {
+		float: left;
+		width: 40%;
+		margin: 2% 10%;
+		margin-bottom: -100%;
+	}
+	.special-menu {
+		width: 10%;
+		margin-top: 3%;
+		margin-left: 10%;
+		padding-left: 10%;
+	}
+	address {
+		display: none;
+	}
+	.protect-block {
+		float: left;
+		width: 90%;
+		margin: 5% auto;
+	}
+	.social-block {
+		width: 100%;
+		margin: 0 -15%;
+		padding-top: 50%;
+	}
+	.dev-block {
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	header {
+		height: 70px;
+	}
+	.order-box {
+		margin-left: 0px;
+	}
+	.logo {
+		width: 50%;
+		height: 43px;
+		margin: auto;
+		box-shadow: none;
+	}
+	input[type=search] {
+		width: 40%;
+	}
+	.auth_buttons {
+		width: 10%;
+		color: #fff;
+		line-height: 40px;
+	}
+	.order-information {
+		width: 100%;
+		margin: auto;
+	}
+	.bookmarks,
+	.basket,
+	.order-matter {
+		width: 31.47%;
+	}
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	.auth_buttons {
+		width: 10%;
+		color: #fff;
+		line-height: 40px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	/*header*/
+	.order-information {
+		display: inline-block !important;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
